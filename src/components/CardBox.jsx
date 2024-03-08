@@ -40,7 +40,7 @@ const CardBox = () => {
                 }}
               />
               <Card.Title>
-                Id: <i>{post.id}</i>
+                Id: <em>{post.id}</em>
               </Card.Title>
               <Card.Text>Origin: {post.breeds[0].origin}</Card.Text>
             </Card.Body>

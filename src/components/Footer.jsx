@@ -1,14 +1,14 @@
-import { Navbar } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <Navbar
+    <Card.Footer
       expand="lg"
       className="bg-warning d-flex justify-content-center align-items-center"
       style={{ fontFamily: "Monospace", height: "80px" }}
     >
-      <Navbar.Brand>&copy; 2024 By Meiying Hu</Navbar.Brand>
-    </Navbar>
+      <Card.Text>&copy; 2024 By Meiying Hu</Card.Text>
+    </Card.Footer>
   );
 };
 
