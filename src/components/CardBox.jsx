@@ -32,9 +32,16 @@ const CardBox = () => {
                 variant="top"
                 src={post.url}
                 alt={`Cat ${post.id}`}
-                style={{ width: "250px", height: "250px", overflow: "hidden" }}
+                style={{
+                  width: "250px",
+                  height: "250px",
+                  overflow: "hidden",
+                  marginBottom: "5px",
+                }}
               />
-              <Card.Title>Name: {post.breeds[0].name}</Card.Title>
+              <Card.Title>
+                Id: <i>{post.id}</i>
+              </Card.Title>
               <Card.Text>Origin: {post.breeds[0].origin}</Card.Text>
             </Card.Body>
           </Card>
