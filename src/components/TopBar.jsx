@@ -10,7 +10,7 @@ const TopBar = () => {
     >
       <img
         src={logo}
-        height="50"
+        height="60"
         className="d-inline-block align-top mx-3 "
         alt="Logo"
       />
