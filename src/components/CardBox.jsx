@@ -7,7 +7,7 @@ const CardBox = () => {
     const fetchPosts = async () => {
       try {
         const response = await fetch(
-          "https://api.thecatapi.com/v1/images/search?limit=57&breed_ids=beng&api_key=live_ShzZK30uJ2AM88eGsu92T1Gh5wq4peGiesTmN0F4O7KvnhfNUlKhSQPS1GrbQ71V"
+          "https://api.thecatapi.com/v1/images/search?limit=50&breed_ids=beng&api_key=live_ShzZK30uJ2AM88eGsu92T1Gh5wq4peGiesTmN0F4O7KvnhfNUlKhSQPS1GrbQ71V"
         );
         if (!response.ok) {
           throw new Error("Unable to fetch data");
